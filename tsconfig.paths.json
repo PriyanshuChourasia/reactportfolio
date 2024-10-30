@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*":["src/*"]
+        },
+        "jsx": "react-jsx",
+        "lib": ["ES2015","DOM"],
+        //"module": "ESNext", /* keep modul system mordern for dynamic imports*/
+       // "target": "ES5"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
